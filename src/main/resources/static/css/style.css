@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Prompt&display=swap");
+
+/*Logo and informative navbar*/
+html {
+    margin: 0;
+    padding: 0;
+}
+
+#navbarTogglerDemo01 {
+    padding-left: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.my-nav-item {
+    font-family: 'Roboto', sans-serif;
+    padding-right: 2.5rem;
+}
+
+.bi {
+    display: inline-block;
+    font-size: 35px;
+    color: #ffC977;
+    vertical-align: middle;
+}
+
+.icon-div {
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.text-div {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.text-div span {
+    display: block;
+    height: 50%;
+}
+
+.text-div span.text-top {
+    display: flex;
+    align-items: flex-end;
+}
+
+.text-div span.text-top:hover {
+    color: aquamarine;
+}
+
+/*Main Navbar*/
+.dashed {
+    border-left: 1px solid wheat;
+    height: 7vh;
+}
+
+.container-down {
+    padding-left: 5vw;
+}
+
+.styled-nav-item {
+    font-family: 'Prompt', sans-serif;
+}
+
+#navbar_top .navbar-nav .nav-link {
+    color: #fff;
+    padding: 1em 0.7em;
+    transition: all 0.5s;
+}
+
+#navbar_top .navbar-nav .nav-link:hover {
+    background-color: aquamarine;
+    color: #0b111a;
+}
+
+.container-down .navbar-brand {
+    color: #fff;
+    padding: 0.7em 0.4em;
+    transition: all 0.5s;
+}
+
+.container-down .navbar-brand:hover {
+    background-color: aquamarine;
+    color: #0b111a;
+}
+
+@media only screen and (min-width: 992px) {
+    #navbar_top .navbar-nav .nav-item:not(:last-child) .nav-link {
+        border-right: 1px solid wheat;
+    }
+}
+
+/*dropdown menu css*/
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    color: white;
+    background: wheat;
+    max-height: 400px;
+    opacity: 1;
+}
+
+/*Carousel*/
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+}
